@@ -14,7 +14,7 @@ public class Covid {
 	}
 
 		public static void main(String[] args) {
-		String path = "covid19-paraiba.csv";
+		String path = "/covid19-paraiba.csv";
 		
 		Dados[] lista = new Dados[1];
 		
