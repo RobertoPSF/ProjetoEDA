@@ -6,8 +6,8 @@
 
 3 - Clique no botão direito do mouse em qualquer região da pasta e escolha a opção "Novo terminal na pasta";
 
-4 - Escreva javac Covid.java e clique enter;
+4 - Escreva "javac Covid.java" e clique enter;
 
-5 - Agora digite java Covid.java;
+5 - Agora digite "java Covid.java" e clique enter novamente;
 
 6 - Agora aguarde os arquivos .csv ordenados serem gerados.
