@@ -6,7 +6,7 @@
 
 3 - Certifique-se que todos os arquivos estejam dentro da mesma pasta;
 
-4 - Certifique-se que o arquivo csv baixado pelo site esteja nomeado como "covid19-brasil", se necessário, renomeie e mova ele para dentro da pasta "ProjetoEDA-main";
+4 - Certifique-se que o arquivo csv baixado pelo site esteja nomeado como "covid19-brasil", se necessário, renomeie e mova-o para dentro da pasta "ProjetoEDA-main";
 
 5 - Clique no botão direito do mouse em qualquer região da pasta e escolha a opção "Novo terminal na pasta";
 
