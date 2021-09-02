@@ -4,7 +4,7 @@
 
 2 - Certifique-se que o arquivo csv original esteja nomeado como "covid19-brasil";
 
-3 - Clique no botão direito do mouse escolha a opção "Novo terminal na pasta";
+3 - Clique no botão direito do mouse em qualquer região da pasta e escolha a opção "Novo terminal na pasta";
 
 4 - Escreva javac Covid.java e clique enter;
 
