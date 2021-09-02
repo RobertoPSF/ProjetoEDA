@@ -10,7 +10,6 @@ public class QuickAlfabetico extends Escrever{
     }
     
     private static void quickSort(Dados[] vetor, int inicio, int fim) {
-      System.out.println("Fim: " + fim + " Inicio: " + inicio);
         if(fim > inicio) {
           //Chamada da rotina que ira dividir o vetor em 3 partes.
           int indexPivo = dividir(vetor, inicio, fim);
@@ -29,7 +28,6 @@ public class QuickAlfabetico extends Escrever{
         String pivo = vetor[inicio].getCidade();
     
         while(pontEsq <= pontDir) {
-          System.out.println("Esquerdo: " + pontEsq + " Direito: " + pontDir);
           /* Vai correr o vetor ate que ultrapasse o outro ponteiro
             ou ate que o elemento em questão seja menor que o pivô. */
           while(pontEsq <= pontDir && deAccent(vetor[pontEsq].getCidade()).compareTo(deAccent(pivo)) < 0 ) {
