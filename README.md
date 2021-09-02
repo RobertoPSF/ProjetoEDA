@@ -6,7 +6,7 @@
 
 2 - Extraia o conteúdo do zip em uma pasta de sua própria escolha, será gerada uma pasta nomeada "ProjetoEAD-main" (recomenda-se utilizar a Área de trabalho para melhor visualização e utilização);
 
-![image](https://user-images.githubusercontent.com/88672689/131894104-f76763ce-a1df-4b1e-adf8-b6c63cd93ec3.png)
+![image](https://user-images.githubusercontent.com/88672689/131894355-7aa5b1f2-dd26-46a4-8fc3-1b1577d52291.png)
 
 3 - Certifique-se que o arquivo csv baixado pelo site esteja nomeado como "covid19-brasil", se necessário, renomeie e mova-o para dentro da pasta "ProjetoEDA-main";
 
