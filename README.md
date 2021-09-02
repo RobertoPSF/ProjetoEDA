@@ -2,7 +2,7 @@
 
 1 - Baixe todos os arquivos presentes nesse repositório como .zip, pela opção disponibilizada pelo próprio Github;
 
-2 - Extraia o conteúdo do zip em uma pasta de sua própria escolha;
+2 - Extraia o conteúdo do zip em uma pasta de sua própria escolha, recomenda-se utilizar a Área de trabalho para melhor visualização;
 
 3 - Certifique-se que todos os arquivos estejam dentro da mesma pasta;
 
