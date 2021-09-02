@@ -8,6 +8,6 @@
 
 4 - Escreva "javac Covid.java" e clique enter;
 
-5 - Agora digite "java Covid.java" e clique enter novamente;
+5 - Digite "java Covid.java" e clique enter novamente;
 
-6 - Agora aguarde os arquivos .csv ordenados serem gerados.
+6 - Agora, basta aguardar os arquivos .csv ordenados serem gerados.
