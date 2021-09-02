@@ -2,11 +2,11 @@
 
 1 - Faça o download desse repositório como zip, pela opção disponibilizada pelo próprio Github;
 
-2 - Extraia o conteúdo do zip em uma pasta de sua própria escolha, recomenda-se utilizar a Área de trabalho para melhor visualização;
+2 - Extraia o conteúdo do zip em uma pasta de sua própria escolha, recomenda-se utilizar a Área de trabalho para melhor visualização e utilização;
 
 3 - Certifique-se que todos os arquivos estejam dentro da mesma pasta;
 
-4 - Certifique-se que o arquivo csv original esteja nomeado como "covid19-brasil";
+4 - Certifique-se que o arquivo csv baixado pelo site esteja nomeado como "covid19-brasil" e mova ele para dentro da pasta "ProjetoEDA-main";
 
 5 - Clique no botão direito do mouse em qualquer região da pasta e escolha a opção "Novo terminal na pasta";
 
