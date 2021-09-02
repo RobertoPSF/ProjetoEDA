@@ -10,12 +10,15 @@
 4 - Certifique-se que todos os arquivos estejam dentro dessa pasta;
 
 5 - Clique no botão direito do mouse na pasta e escolha a opção "Novo terminal na pasta", caso não seja possível encontrar nas primeiras opções, procure na aba "Serviços";
+
 ![image](https://user-images.githubusercontent.com/88672689/131893088-2aa58673-ff89-460d-9c48-28ef6cd257e8.png)
 
 6 - Escreva "javac Covid.java" e clique enter;
+
 ![image](https://user-images.githubusercontent.com/88672689/131893301-d6bb7a02-8dd5-48c4-a216-966b24634c37.png)
 
 7 - Digite "java Covid.java" e clique enter novamente;
+
 ![image](https://user-images.githubusercontent.com/88672689/131893341-d12bd937-9466-4f5e-aa1d-9f73781df305.png)
 
 
