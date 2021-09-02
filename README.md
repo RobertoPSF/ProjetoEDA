@@ -1,6 +1,6 @@
 # ProjetoEDA
 
-1 - Baixe todos os arquivos presentes nesse repositório como .zip, pela opção disponibilizada pelo próprio Github;
+1 - Faça o download desse repositório como zip, pela opção disponibilizada pelo próprio Github;
 
 2 - Extraia o conteúdo do zip em uma pasta de sua própria escolha, recomenda-se utilizar a Área de trabalho para melhor visualização;
 
@@ -14,4 +14,4 @@
 
 7 - Digite "java Covid.java" e clique enter novamente;
 
-8 - Agora, basta aguardar os arquivos .csv ordenados serem gerados.
+8 - Agora, basta aguardar os arquivos csv's ordenados serem gerados.
