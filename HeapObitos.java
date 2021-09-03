@@ -35,7 +35,10 @@ public class HeapObitos extends Escrever{
         }
         long totalTime = System.nanoTime() - startTime;
         System.out.println("HeapSort para quantidade de óbitos acumulados para o caso médio: " + (totalTime) + " milisegundos");
-		String path = "hSort_ordena_obitos_medio.csv";
+	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
+        String path = "hSort_ordena_obitos_medio.csv";
         escreverCsv(vetor, path);
         heapSortMelhor(vetor);
     }
@@ -76,7 +79,10 @@ public class HeapObitos extends Escrever{
         }
         long totalTime = System.nanoTime() - startTime;
         System.out.println("HeapSort para quantidade de obitos acumulados para o melhor caso: " + (totalTime) + " milisegundos");
-		String path = "hSort_ordena_obitos_melhor.csv";
+	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
+        String path = "hSort_ordena_obitos_melhor.csv";
         escreverCsv(vetor, path);
         heapSortPior(vetor);
     }
@@ -117,7 +123,10 @@ public class HeapObitos extends Escrever{
         }
         long totalTime = System.nanoTime() - startTime;
         System.out.println("HeapSort para quantidade de óbitos acumulados para o pior caso: " + (totalTime) + " milisegundos");
-		String path = "hSort_ordena_obitos_pior.csv";
+	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
+        String path = "hSort_ordena_obitos_pior.csv";
         escreverCsv(vetor, path);
     }
 }
