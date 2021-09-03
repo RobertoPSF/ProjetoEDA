@@ -12,7 +12,7 @@ public class InsertionAlfabetico extends Escrever{
             lista[i+1] = key;  
         }
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("InsertionSort para ordem alfabetica para o caso médio: " + (totalTime) + " milisegundos");
+        System.out.println("\nInsertionSort para ordem alfabetica para o caso médio: " + (totalTime) + " milisegundos");
         double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
@@ -34,7 +34,7 @@ public class InsertionAlfabetico extends Escrever{
             lista[i+1] = key;  
         }
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("InsertionSort para ordem alfabetica para o melhor caso: " + (totalTime) + " milisegundos");
+        System.out.println("\nInsertionSort para ordem alfabetica para o melhor caso: " + (totalTime) + " milisegundos");
         double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
@@ -56,7 +56,7 @@ public class InsertionAlfabetico extends Escrever{
             lista[i+1] = key;  
         }
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("InsertionSort para ordem alfabetica para o pior caso: " + (totalTime) + " milisegundos");
+        System.out.println("\nInsertionSort para ordem alfabetica para o pior caso: " + (totalTime) + " milisegundos");
         double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);

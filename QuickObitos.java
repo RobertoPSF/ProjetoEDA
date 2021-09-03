@@ -3,11 +3,11 @@ public class QuickObitos extends Escrever{
         long startTime = System.nanoTime();    
         quickSort(vetor, 0, vetor.length - 2);
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("QuickSort para quantidade de óbitos acumulados para caso médio: " + (totalTime) + " milisegundos");
+        System.out.println("\nQuickSort para quantidade de óbitos acumulados para caso médio: " + (totalTime) + " milisegundos");
+        String path = "qSort_ordena_obitos_medio.csv";
         double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
-        String path = "qSort_ordena_obitos_medio.csv";
         escreverCsv(vetor, path);
         quickSortObitosMelhor(vetor);
     }
@@ -67,7 +67,7 @@ public class QuickObitos extends Escrever{
         long startTime = System.nanoTime();    
         quickSortMelhor(vetor, 0, vetor.length - 2);
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("QuickSort para quantidade de óbitos acumulados para o melhor caso: " + (totalTime) + " milisegundos");
+        System.out.println("\nQuickSort para quantidade de óbitos acumulados para o melhor caso: " + (totalTime) + " milisegundos");
         double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
@@ -131,7 +131,7 @@ public class QuickObitos extends Escrever{
         long startTime = System.nanoTime();    
         quickSortPior(vetor, 0, vetor.length - 2);
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("QuickSort para quantidade de óbitos acumulados para o pior caso: " + (totalTime) + " milisegundos");
+        System.out.println("\nQuickSort para quantidade de óbitos acumulados para o pior caso: " + (totalTime) + " milisegundos");
         double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);

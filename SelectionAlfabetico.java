@@ -16,13 +16,13 @@ public class SelectionAlfabetico extends Escrever{
 			}
 		}
 		long totalTime = System.nanoTime() - startTime;
-        System.out.println("SelectionSort para ordem alfabetica para o caso médio: " + (totalTime) + " milisegundos");
-	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.println("\nSelectionSort para ordem alfabetica para o caso médio: " + (totalTime) + " milisegundos");
+		double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "sSort_ordena_cidades_medio.csv";
         escreverCsv(array, path);
-	selectionSortAlfabeticoMelhorCaso(array);
+		selectionSortAlfabeticoMelhorCaso(array);
 	}
 
 	public static void selectionSortAlfabeticoMelhorCaso(Dados[] array) {
@@ -42,13 +42,13 @@ public class SelectionAlfabetico extends Escrever{
 			}
 		}
 		long totalTime = System.nanoTime() - startTime;
-        System.out.println("SelectionSort para ordem alfabetica para o melhor caso: " + (totalTime) + " milisegundos");
-	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.println("\nSelectionSort para ordem alfabetica para o melhor caso: " + (totalTime) + " milisegundos");
+		double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "sSort_ordena_cidades_melhor.csv";
         escreverCsv(array, path);
-	selectionSortAlfabeticoPiorCaso(array);
+		selectionSortAlfabeticoPiorCaso(array);
 	}
 
 	public static void selectionSortAlfabeticoPiorCaso(Dados[] array) {
@@ -68,8 +68,8 @@ public class SelectionAlfabetico extends Escrever{
 			}
 		}
 		long totalTime = System.nanoTime() - startTime;
-        System.out.println("SelectionSort para ordem alfabetica para o pior caso: " + (totalTime) + " milisegundos");
-	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.println("\nSelectionSort para ordem alfabetica para o pior caso: " + (totalTime) + " milisegundos");
+		double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "sSort_ordena_cidades_pior.csv";

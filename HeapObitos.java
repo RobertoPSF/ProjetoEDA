@@ -34,8 +34,8 @@ public class HeapObitos extends Escrever{
             vetor[pai] = t;
         }
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("HeapSort para quantidade de óbitos acumulados para o caso médio: " + (totalTime) + " milisegundos");
-	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.println("\nHeapSort para quantidade de óbitos acumulados para o caso médio: " + (totalTime) + " milisegundos");
+		double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "hSort_ordena_obitos_medio.csv";
@@ -78,8 +78,8 @@ public class HeapObitos extends Escrever{
             vetor[pai] = t;
         }
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("HeapSort para quantidade de obitos acumulados para o melhor caso: " + (totalTime) + " milisegundos");
-	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.println("\nHeapSort para quantidade de obitos acumulados para o melhor caso: " + (totalTime) + " milisegundos");
+		double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "hSort_ordena_obitos_melhor.csv";
@@ -122,8 +122,8 @@ public class HeapObitos extends Escrever{
             vetor[pai] = t;
         }
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("HeapSort para quantidade de óbitos acumulados para o pior caso: " + (totalTime) + " milisegundos");
-	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.println("\nHeapSort para quantidade de óbitos acumulados para o pior caso: " + (totalTime) + " milisegundos");
+		double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "hSort_ordena_obitos_pior.csv";

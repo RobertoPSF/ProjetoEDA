@@ -4,7 +4,7 @@ public class Quick3Casos extends Escrever{
         long startTime = System.nanoTime();        
         quicksortMedianaDeTres(A, 0, A.length - 2);
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("QuickSort mediana de 3 para quantidade de casos acumulados para caso médio: " + (totalTime) + " milisegundos");
+        System.out.println("\nQuickSort mediana de 3 para quantidade de casos acumulados para caso médio: " + (totalTime) + " milisegundos");
         double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
@@ -94,7 +94,7 @@ public class Quick3Casos extends Escrever{
         long startTime = System.nanoTime();        
         quicksortMedianaDeTresMelhor(A, 0, A.length - 2);
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("QuickSort mediana de 3 para quantidade de casos acumulados para o melhor caso: " + (totalTime) + " milisegundos");
+        System.out.println("\nQuickSort mediana de 3 para quantidade de casos acumulados para o melhor caso: " + (totalTime) + " milisegundos");
         double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
@@ -184,7 +184,7 @@ public class Quick3Casos extends Escrever{
         long startTime = System.nanoTime();        
         quicksortMedianaDeTresPior(A, 0, A.length - 2);
         long totalTime = System.nanoTime() - startTime;
-        System.out.println("QuickSort mediana de 3 para quantidade de casos acumulados para o pior caso: " + (totalTime) + " milisegundos");
+        System.out.println("\nQuickSort mediana de 3 para quantidade de casos acumulados para o pior caso: " + (totalTime) + " milisegundos");
         double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
         System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
         System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
