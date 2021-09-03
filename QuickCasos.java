@@ -4,6 +4,9 @@ public class QuickCasos extends Escrever{
         quickSort(vetor, 0, vetor.length - 2);
         long totalTime = System.nanoTime() - startTime;
         System.out.println("QuickSort para quantidade de casos acumulados para caso médio: " + (totalTime) + " milisegundos");
+        double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "qSort_ordena_casos_medio.csv";
         escreverCsv(vetor, path);
         quickSortCasosMelhor(vetor);
@@ -65,6 +68,9 @@ public class QuickCasos extends Escrever{
         quickSortMelhor(vetor, 0, vetor.length - 2);
         long totalTime = System.nanoTime() - startTime;
         System.out.println("QuickSort para quantidade de casos acumulados para o melhor caso: " + (totalTime) + " milisegundos");
+        double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "qSort_ordena_casos_melhor.csv";
         escreverCsv(vetor, path);
         quickSortCasosPior(vetor);
@@ -126,6 +132,9 @@ public class QuickCasos extends Escrever{
         quickSortPior(vetor, 0, vetor.length - 2);
         long totalTime = System.nanoTime() - startTime;
         System.out.println("QuickSort para quantidade de casos acumulados para o pior caso: " + (totalTime) + " milisegundos");
+        double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "qSort_ordena_casos_pior.csv";
         escreverCsv(vetor, path);
     }
