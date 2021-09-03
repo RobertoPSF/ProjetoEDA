@@ -28,4 +28,4 @@
 
 ![image](https://user-images.githubusercontent.com/88672689/131893341-d12bd937-9466-4f5e-aa1d-9f73781df305.png)
 
-8 - Agora, basta aguardar os arquivos csv's ordenados serem gerados.
+8 - Agora, basta aguardar os arquivos csv's ordenados serem gerados. Se também quiser, pode observar o desempenho do seu computador durante a execução do código!
