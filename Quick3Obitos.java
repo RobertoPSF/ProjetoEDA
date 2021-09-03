@@ -5,6 +5,9 @@ public class Quick3Obitos extends Escrever{
         quicksortMedianaDeTres(A, 0, A.length - 2);
         long totalTime = System.nanoTime() - startTime;
         System.out.println("QuickSort mediana de 3 para quantidade de óbitos acumulados para caso médio: " + (totalTime) + " milisegundos");
+        double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "q3Sort_ordena_obitos_medio.csv";
         escreverCsv(A, path);
         quicksortMedianaDeTresMelhor(A);
@@ -92,6 +95,9 @@ public class Quick3Obitos extends Escrever{
         quicksortMedianaDeTresMelhor(A, 0, A.length - 2);
         long totalTime = System.nanoTime() - startTime;
         System.out.println("QuickSort mediana de 3 para quantidade de óbitos acumulados para o melhor caso: " + (totalTime) + " milisegundos");
+        double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "q3Sort_ordena_obitos_melhor.csv";
         escreverCsv(A, path);
         quicksortMedianaDeTresPior(A);
@@ -179,6 +185,9 @@ public class Quick3Obitos extends Escrever{
         quicksortMedianaDeTresPior(A, 0, A.length - 2);
         long totalTime = System.nanoTime() - startTime;
         System.out.println("QuickSort mediana de 3 para quantidade de óbitos acumulados para o pior caso: " + (totalTime) + " milisegundos");
+        double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "q3Sort_ordena_obitos_pior.csv";
         escreverCsv(A, path);
     }
