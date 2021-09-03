@@ -13,6 +13,9 @@ public class InsertionObitos extends Escrever{
         }
         long totalTime = System.nanoTime() - startTime;
         System.out.println("InsertionSort para quantidade de obitos acumuladas para caso médio: " + (totalTime) + " milisegundos");
+        double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "iSort_ordena_obitos_medio.csv";
         escreverCsv(lista,path);
         insertionSortObitosMelhor(lista);
@@ -32,6 +35,9 @@ public class InsertionObitos extends Escrever{
         }
         long totalTime = System.nanoTime() - startTime;
         System.out.println("InsertionSort para quantidade de obitos acumuladas para o melhor caso: " + (totalTime) + " milisegundos");
+        double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "iSort_ordena_obitos_melhor.csv";
         escreverCsv(lista,path);
         insertionSortObitosPior(lista);
@@ -51,6 +57,9 @@ public class InsertionObitos extends Escrever{
         }
         long totalTime = System.nanoTime() - startTime;
         System.out.println("InsertionSort para quantidade de obitos acumuladas para o pior caso: " + (totalTime) + " milisegundos");
+        double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
         String path = "iSort_ordena_obitos_pior.csv";
         escreverCsv(lista,path);
 	}
