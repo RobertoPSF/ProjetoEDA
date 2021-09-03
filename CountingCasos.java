@@ -37,7 +37,10 @@ public class CountingCasos extends Escrever{
 
         long totalTime = System.nanoTime() - startTime;
         System.out.println("CountingSort para quantidade de casos acumulados para o caso médio: " + (totalTime) + " milisegundos");
-		String path = "cSort_ordena_casos_medio.csv";
+	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
+        String path = "cSort_ordena_casos_medio.csv";
         escreverCsv(array, path);
         countingSortCasosMelhor(array);
     }
@@ -80,7 +83,10 @@ public class CountingCasos extends Escrever{
 
         long totalTime = System.nanoTime() - startTime;
         System.out.println("CountingSort para quantidade de casos acumulados para o melhor caso: " + (totalTime) + " milisegundos");
-		String path = "cSort_ordena_casos_melhor.csv";
+	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
+        String path = "cSort_ordena_casos_melhor.csv";
         escreverCsv(array, path);
         countingSortCasosPior(array);
     }
@@ -123,7 +129,10 @@ public class CountingCasos extends Escrever{
 
         long totalTime = System.nanoTime() - startTime;
         System.out.println("CountingSort para quantidade de casos acumulados para o pior caso: " + (totalTime) + " milisegundos");
-		String path = "cSort_ordena_casos_pior.csv";
+	double memoriaUtilizada = ( (double)((double)(Runtime.getRuntime().totalMemory()/1024)/1024))- ((double)((double)(Runtime.getRuntime().freeMemory()/1024)/1024));
+        System.out.printf("Memória utlizada: %.2f Mb\n", memoriaUtilizada);
+        System.out.printf("Memória utlizada: %.3f Gb\n", memoriaUtilizada/1024);
+        String path = "cSort_ordena_casos_pior.csv";
         escreverCsv(array, path);
     }
 }
